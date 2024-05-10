@@ -1,0 +1,11 @@
+Package: coconut
+Type: Package
+Title: Covariate-assisted composite null hypothesis testing providing FDR control
+Version: 0.1.0
+Authors@R: c(person("Yan Li", role = c("aut", "cre", "cph"), email = "yanli_@jlu.edu.cn"))
+Description: This package implements a robust and powerful FDR control procedure for covariate-assisted large-scale multiple testing of composite null hypotheses.
+License: GPL-3
+Encoding: UTF-8
+Depends: Rcpp (>= 1.0.9), qvalue
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.1
